@@ -1,0 +1,12 @@
+{
+  "name": "Open the extensions page",
+  "version": "0.0",
+  "description": "Opening the extension page.",
+  "icons": { "128": "extension_icon-l.png"  },
+  "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "extension_icon-s.png",
+    "default_title": "Opening the extensions page"
+  },
+  "permissions": [ "tabs" ]
+}
